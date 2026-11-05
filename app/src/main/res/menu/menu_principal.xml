@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mHome"
+        android:icon="@drawable/baseline_home"
+        android:title="@string/home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mBooks"
+        android:icon="@drawable/baseline_library_books"
+        android:title="@string/books"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mSearch"
+        android:icon="@drawable/baseline_search"
+        android:title="@string/search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mLocal"
+        android:icon="@drawable/baseline_location_on"
+        android:title="@string/local"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mSee"
+        android:icon="@drawable/baseline_local_see"
+        android:title="@string/see"
+        app:showAsAction="never" />
+</menu>
